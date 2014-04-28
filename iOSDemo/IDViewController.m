@@ -13,11 +13,13 @@
 @end
 
 @implementation IDViewController
+@synthesize label, textField;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    label.text = @"iOS Demo";
+    
 }
 
 - (void)didReceiveMemoryWarning
