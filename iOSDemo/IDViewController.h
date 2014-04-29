@@ -11,5 +11,6 @@
 @interface IDViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIButton *demoButton;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @end

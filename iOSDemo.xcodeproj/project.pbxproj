@@ -21,6 +21,7 @@
 		B8037B21190D9E6900C09238 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8037B03190D9E6900C09238 /* UIKit.framework */; };
 		B8037B29190D9E6900C09238 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8037B27190D9E6900C09238 /* InfoPlist.strings */; };
 		B8037B2B190D9E6900C09238 /* iOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8037B2A190D9E6900C09238 /* iOSDemoTests.m */; };
+		B8C9C1DB190F4B40003E4A68 /* ButtonScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C9C1DA190F4B40003E4A68 /* ButtonScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B8037B26190D9E6900C09238 /* iOSDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSDemoTests-Info.plist"; sourceTree = "<group>"; };
 		B8037B28190D9E6900C09238 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8037B2A190D9E6900C09238 /* iOSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDemoTests.m; sourceTree = "<group>"; };
+		B8C9C1D9190F4B40003E4A68 /* ButtonScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonScreenViewController.h; sourceTree = "<group>"; };
+		B8C9C1DA190F4B40003E4A68 /* ButtonScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		B8037B05190D9E6900C09238 /* iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B8C9C1D9190F4B40003E4A68 /* ButtonScreenViewController.h */,
+				B8C9C1DA190F4B40003E4A68 /* ButtonScreenViewController.m */,
 				B8037B0E190D9E6900C09238 /* IDAppDelegate.h */,
 				B8037B0F190D9E6900C09238 /* IDAppDelegate.m */,
 				B8037B11190D9E6900C09238 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				B8037B0C190D9E6900C09238 /* main.m in Sources */,
 				B8037B10190D9E6900C09238 /* IDAppDelegate.m in Sources */,
+				B8C9C1DB190F4B40003E4A68 /* ButtonScreenViewController.m in Sources */,
 				B8037B16190D9E6900C09238 /* IDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				B8037B30190D9E6900C09238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8037B31190D9E6900C09238 /* Build configuration list for PBXNativeTarget "iOSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				B8037B33190D9E6900C09238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

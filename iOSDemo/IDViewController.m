@@ -13,7 +13,7 @@
 @end
 
 @implementation IDViewController
-@synthesize label, textField;
+@synthesize label, textField, demoButton;
 
 - (void)viewDidLoad
 {
